@@ -86,31 +86,53 @@ i,h4{
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+
+::placeholder{
+    color: #fff;
+    opacity: .8;
+}
+
+
 input {
-    font-size: 20px;
-    width: 40%;
+   
+    color: #fff;
+    font-size: 25px;
+    font-weight:400;
+    width: 35%;
     padding: 10px;
     text-align: center;
-    border: 5px solid rgba(0, 0, 0, .3);
-    border-radius:50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
     margin-left:30%;
+    border-radius: 3px;
     outline: none;
+    background-color: transparent;
 }
 .message {
-    font: 20px Helvetica, Arial, Sans-serif;
+   font: 18px Helvetica, Arial, Sans-serif;
     display: none;
     width: 100%;
     padding: 20px;
     color: #fff;
+    border-radius: 2px;
 }
 .error {
     background: red;
+	margin-left: 2%;
+	
 }
 .success {
   background: green;
+	 margin-left: 2%;
+  border-radius: 10px;
 }
 
-
+.submit:hover{
+	font-size: 20px;	
+}
 
 .latest-products {
 	margin-top: 100px;
